@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <>
             <Hero />
-            <div class="grid grid-flow-col auto-cols-max md:auto-cols-min">
+            <div className="grid grid-flow-col auto-cols-max md:auto-cols-min">
                 <div>
                     
                 </div>
