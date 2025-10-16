@@ -1,7 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Hero';
-import Browse from './components/Browse';
 import {Routes, Route} from 'react-router-dom';
 import SearchView from './components/SearchView';
 import MovieView from './components/MovieView';
@@ -51,7 +50,6 @@ useEffect(() => {
       <Navbar searchText={searchText} setSearchText={setSearchText}/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Browse" element={<Browse />} />
         <Route path="/search" element={<SearchView keyword={searchText} searchResults={searchResults}/>} />
         <Route path="/movie/:id" element={<MovieView />} />
       </Routes>
