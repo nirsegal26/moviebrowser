@@ -1,48 +1,61 @@
-# Flowflix - Movie Browser 🎬
+# 🎬 MovieBrowser  
+**Status:** Work in Progress 🚧  
 
-פרויקט זה הוא אפליקציית Web דינמית לברואז וחיפוש סרטים, שנבנתה באמצעות **React** ו-**Tailwind CSS**. האפליקציה מאפשרת למשתמשים לחפש סרטים, לצפות בתוצאות, ולצפות בפרטים מלאים על סרט ספציפי באמצעות ממשק המשתמש האלגנטי.
+> ⚠️ This project is still under active development – expect bugs, missing features, and ongoing improvements.
 
-**נכון לעכשיו, הפרויקט נמצא בבנייה (Work in Progress - WIP).**
+## 📌 Overview  
+**MovieBrowser** is a dynamic web application that allows users to browse and search for movies, view detailed information, and enjoy a clean, responsive interface.  
+Built with **React** and **Tailwind CSS**, it uses **The Movie Database (TMDb) API** as its main data source.
+
+## 🚧 Project Status  
+The project is **currently in development (Work in Progress)**.  
+Main features implemented so far:
+- ✅ Movie search via API  
+- ✅ Movie list and cards display  
+- ✅ Detailed movie view page  
+- ✅ Navigation using React Router  
+- ✅ Tailwind CSS styling  
+
+Planned features and improvements:
+- 🔒 Move API key to `.env` environment file  
+- ⚙️ Add debouncing to the search input  
+- 🧩 Refactor API logic into custom React hooks  
+- 🌍 Add multi-language support  
+- 🌓 Implement dark/light mode toggle  
+- 🎨 Improve UI/UX design and animations  
+
+## 🛠️ Tech Stack  
+- **React** (Functional Components + Hooks)  
+- **JavaScript (ES6+)**  
+- **Tailwind CSS**  
+- **React Router DOM**  
+- **TMDb API**  
+
+## ⚙️ Installation & Setup  
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/nirsegal26/moviebrowser.git
+   cd moviebrowser
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **(Optional)** Create a `.env` file and add your TMDb API key:
+   ```
+   REACT_APP_TMDB_API_KEY=your_api_key_here
+   ```
+
+4. **Run the project locally:**
+   ```bash
+   npm start
+   ```
+   Then open [http://localhost:3000](http://localhost:3000) in your browser.
+
 
 ---
 
-## 🚧 סטטוס הפרויקט (WIP)
-
-הפרויקט נמצא בשלבי פיתוח פעילים. הרכיבים הבסיסיים של ה-UI, ניווט ה-Router, וקריאות ה-API מיושמים, אך ישנם שיפורים ואופטימיזציות מתוכננים.
-
-### תכונות שכבר יושמו:
-
-* **חיפוש סרטים:** חיפוש דינמי באמצעות קריאות API.
-* **רשימת תוצאות:** הצגת כרטיסי סרטים עם פרטים בסיסיים.
-* **דף צפייה מלא:** הצגת פרטים מלאים על סרט ספציפי (תקציר, דירוג, אורך).
-* **ניווט:** שימוש ב-`react-router-dom` לניתוב חלק בין הדפים.
-* **עיצוב:** שימוש ב-Tailwind CSS ליצירת מראה מודרני ואלגנטי.
-
-### תכונות עתידיות / שיפורים מתוכננים:
-
-* **אבטחת מפתחות:** העברת מפתחות ה-API למשתני סביבה (``.env``).
-* **שיפור ביצועים:** יישום Debouncing לשדה החיפוש.
-* **טיפול בשפות:** הוספת תמיכה בבחירת שפה לתצוגה.
-* **שיפור קריאת קוד:** העברת לוגיקת API ל-Custom Hooks (`useFetchMovie`).
-
----
-
-## 🛠️ טכנולוגיות
-
-* **React:** ספריית הליבה לבניית ממשק המשתמש.
-* **JavaScript (ES6+):** שפת הפיתוח הראשית.
-* **Tailwind CSS:** ספריית CSS Utilities לעיצוב מהיר ומודרני.
-* **React Router DOM:** לניהול הניתוב באפליקציה.
-* **TMDB API:** ספק הנתונים (The Movie Database).
-
----
-
-## ⚙️ הפעלה מקומית
-
-כדי להפעיל את הפרויקט על המחשב שלך, בצע את הצעדים הבאים:
-
-### 1. שיבוט המאגר (Clone Repository)
-
-```bash
-git clone [https://github.com/nirsegal26/moviebrowser.git](https://github.com/nirsegal26/moviebrowser.git)
-cd moviebrowser
+Thanks for visiting! ✨  
+> Project status: **Still in development – stay tuned for updates.**
