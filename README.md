@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Flowflix - Movie Browser 🎬
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+פרויקט זה הוא אפליקציית Web דינמית לברואז וחיפוש סרטים, שנבנתה באמצעות **React** ו-**Tailwind CSS**. האפליקציה מאפשרת למשתמשים לחפש סרטים, לצפות בתוצאות, ולצפות בפרטים מלאים על סרט ספציפי באמצעות ממשק המשתמש האלגנטי.
 
-## Available Scripts
+**נכון לעכשיו, הפרויקט נמצא בבנייה (Work in Progress - WIP).**
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚧 סטטוס הפרויקט (WIP)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+הפרויקט נמצא בשלבי פיתוח פעילים. הרכיבים הבסיסיים של ה-UI, ניווט ה-Router, וקריאות ה-API מיושמים, אך ישנם שיפורים ואופטימיזציות מתוכננים.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### תכונות שכבר יושמו:
 
-### `npm test`
+* **חיפוש סרטים:** חיפוש דינמי באמצעות קריאות API.
+* **רשימת תוצאות:** הצגת כרטיסי סרטים עם פרטים בסיסיים.
+* **דף צפייה מלא:** הצגת פרטים מלאים על סרט ספציפי (תקציר, דירוג, אורך).
+* **ניווט:** שימוש ב-`react-router-dom` לניתוב חלק בין הדפים.
+* **עיצוב:** שימוש ב-Tailwind CSS ליצירת מראה מודרני ואלגנטי.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### תכונות עתידיות / שיפורים מתוכננים:
 
-### `npm run build`
+* **אבטחת מפתחות:** העברת מפתחות ה-API למשתני סביבה (``.env``).
+* **שיפור ביצועים:** יישום Debouncing לשדה החיפוש.
+* **טיפול בשפות:** הוספת תמיכה בבחירת שפה לתצוגה.
+* **שיפור קריאת קוד:** העברת לוגיקת API ל-Custom Hooks (`useFetchMovie`).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ טכנולוגיות
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* **React:** ספריית הליבה לבניית ממשק המשתמש.
+* **JavaScript (ES6+):** שפת הפיתוח הראשית.
+* **Tailwind CSS:** ספריית CSS Utilities לעיצוב מהיר ומודרני.
+* **React Router DOM:** לניהול הניתוב באפליקציה.
+* **TMDB API:** ספק הנתונים (The Movie Database).
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ⚙️ הפעלה מקומית
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+כדי להפעיל את הפרויקט על המחשב שלך, בצע את הצעדים הבאים:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 1. שיבוט המאגר (Clone Repository)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone [https://github.com/nirsegal26/moviebrowser.git](https://github.com/nirsegal26/moviebrowser.git)
+cd moviebrowser
